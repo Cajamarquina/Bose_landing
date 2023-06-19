@@ -1,8 +1,8 @@
     // JavaScript code for the hamburger menu functionality
     document.addEventListener('DOMContentLoaded', function() {
       const hamburger = document.querySelector('.hamburger');
-      const menu = document.querySelector('.menu');
-      const closeBtn = document.querySelector('.close');
+      const openMenu = document.querySelector('.menu');
+      const closeMenu = document.querySelector('.close');
       const links = document.querySelectorAll('.menu nav a');
       
       // Function to open the menu
