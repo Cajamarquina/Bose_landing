@@ -1,0 +1,275 @@
+<!-- #region head -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css"/>
+<link rel="stylesheet" href="./modern-normalize.css">
+<link rel="stylesheet" href="./modern-normalize.min.css">
+
+<title>Bose</title>
+</head>
+<!-- #endregion -->
+
+<body id="home">
+    <header> 
+        <div class="header-container">
+            <div class="logo-container">
+        <img class="logo-image" src="./img/Logo.png" alt="logo">
+
+        <button type="button" class="menu-open js-open-menu">
+            <svg class="menu-icon" width="24" height="24">
+                <use href="./img/icons.svg#icon-Icon-Burger-menu"></use>
+            </svg>
+         </button>
+        </div>
+
+         <div class="hero-container">
+            <svg class="hero-waves" width="64" height="76">
+             <use href="./img/icons.svg#icon-Sound-waves"></use>
+            </svg>
+             <h1 class="hero-text">The world shades.<br> Your music shines.</h1>
+         </div>
+
+         <div class="menu-overlay js-menu-container" id="mobile-menu">
+            <div class="menu-header">
+ <img class="logo-image" src="./img/Logo.png" alt="logo">
+<button class="menu-close-btn js-close-menu" type="button">
+    <svg class="menu-close-icon" width="24" height="24">
+        <use href="./img/icons.svg#icon-Icon-Close"></use>
+    </svg>
+</button>
+</div>
+    <nav class="mobile-menu">
+        <a class="menu-nav link" href="#home">Home</a>
+        <a class="menu-nav link" href="#recommended">Recommended</a>
+        <a class="menu-nav link" href="#browse">Categories</a>
+        <a class="menu-nav link" href="#buy">How to buy</a>
+    </nav>
+ </div>
+</div>
+
+
+ </header>
+
+ <main class="main">
+
+     <!--Section1-->
+     <section class="recommended-section" id="recommended">
+            <h2 class="recommended-title title">Recommended</h2>
+            <ul class="recommended-items list">
+                <li class="recommended-item">
+                    <div class="recommended-image-container">
+                        <picture>
+                            <source
+                    srcset="./img/recommended1_desk@1x.jpg 1x, ./img/recommended1_desk@2x.jpg 2x"
+                    media="min-width: 1200px">
+
+                    <source
+                    srcset="./img/recommended1_tab@1x.jpg 1x, ./img/recommended1_tab@2x.jpg 2x"
+                    media="min-width: 744px">
+
+                    <source
+                    srcset="./img/recommended1_mob@1x.jpg 1x, ./img/recommended1_mob@2x.jpg 2x"
+                    media="min-width: 320px">
+ 
+                    <img class="recommended-img" src="./img/recommended1_desk@1x.jpg" alt="recommended1">
+                </picture>
+            </div>
+                    <p class="recommended-item-title">Bose portable Smart speaker</p>
+                    <div class="recommended-descr-container">
+                    <p class="recommended-item-descr">Smart home</p>
+                    <p class="recommended-item-price">$ 399.00</p>
+                </div>
+                </li>
+
+                <li class="recommended-item">
+                    <div class="recommended-image-container">
+                        <picture>
+                            <source
+                            srcset="./img/recommended2_desk@1x.jpg 1x, ./img/recommended2_desk@2x.jpg 2x"
+                            media="min-width: 1200px">
+        
+                            <source
+                            srcset="./img/recommended2_tab@1x.jpgg 1x, ./img/recommended2_tab@2x.jpg 2x"
+                            media="min-width: 744px">
+        
+                            <source
+                            srcset="./img/recommended2_mob@1x.jpg 1x, ./img/recommended2_mob@2x.jpg 2x"
+                            media="min-width: 320px">
+        
+                    <img class="recommended-img" src="./img/recommended2_desk@1x.jpg" alt="recommended2">
+                </picture>
+            </div>
+                    <p class="recommended-item-title">SoundLink Flex Bluetooth speaker</p>
+                    <div class="recommended-descr-container">
+                    <p class="recommended-item-descr">Portable bluetooth</p>
+                    <p class="recommended-item-price">$ 149.00</p>
+                </div>
+                </li>
+               
+                <li class="recommended-item">
+                    <div class="recommended-image-container">
+                        <picture class="recommended-img">
+                            <source
+                            srcset="./img/recommended3_desk@1x.jpg 1x, ./img/recommended3_desk@2x.jpg 2x"
+                            media="min-width: 1200px">
+        
+                            <source
+                            srcset="./img/recommended3_tab@1x.jpg 1x, ./img/recommended3_tab@2x.jpg 2x"
+                            media="min-width: 744px">
+        
+                            <source
+                            srcset="./img/recommended3_mob@1x.jpg 1x, ./img/ecommended3_mob@2x.jpg 2x"
+                            media="min-width: 320px">
+                        
+                    <img class="recommended-img" src="./img/recommended3_desk@1x.jpg" alt="recommended3">
+                </picture></div>
+                    <p class="recommended-item-title">SoundLink Color Bluetooth speaker II</p>
+                    <div class="recommended-descr-container">
+                    <p class="recommended-item-descr">Portable bluetooth</p>
+                    <p class="recommended-item-price">$ 129.00</p>
+                </div>
+                </li>
+
+            </ul>
+     </section>
+
+     <!--Section2-->
+
+     <section class="browse-section" id="browse">
+            <h2 class="browse-title title">Browse Bose<br> products by category</h2>
+            <ul class="browse-items list">
+                <li class="browse-item">
+                    <div class="browse-item-container">
+                 <picture>
+                    <source
+                    srcset="./img/browse1_desk@1x.jpg 1x, ./img/browse1_desk@2x.png 2x"
+                    media="min-width: 1200px">
+
+                    <source
+                    srcset="./img/browse2_desk@1x.jpg 1x, ./img/browse2_desk@2x.jpg 2x"
+                    media="min-width: 1200px">
+
+                    <source
+                    srcset="./img/browse1_tab@1x.jpg 1x, ./img/browse1_tab@2x.jpg 2x"
+                    media="min-width: 744px">
+
+                    <source
+                    srcset="./img/browse2_tab@1x.jpg 1x, ./img/browse2_tab@2x.jpg 2x"
+                    media="min-width: 744px">
+
+
+                    <source
+                    srcset="./img/browse1_mob@1x.jpg 1x, ./img/browse1_mob@2x.jpg 2x"
+                    media="min-width: 320px">
+                    <source
+                    srcset="./img/browse2_mob@1x.jpg 1x, ./img/browse2_mob@2x.jpg 2x"
+                    media="min-width: 320px">
+
+                    <img class="photo1" src="./img/browse1_desk@1x.jpg" alt="browse1">
+                    <img class="photo2" src="./img/browse2_desk@1x.jpg" alt="browse2">
+
+                </picture>
+                </div>
+                    <p class="browse-items-descr">Headphones & earbuds</p>
+                </li>
+                <li class="browse-item">
+                    <div class="browse-item-container">
+                        <picture>
+
+                        <source
+                        srcset="./img/browse3_desk@1x.jpg 1x, ./img/browse3_desk@2x.jpg 2x"
+                        media="min-width: 1200px">
+    
+                        <source
+                        srcset="./img/browse4_desk@1x.jpg 1x, ./img/browse4_desk@2x.jpg 2x"
+                        media="min-width: 1200px">
+    
+                        <source
+                        srcset="./img/browse3_tab@1x.jpg 1x, ./img/browse3_tab@2x.jpg 2x"
+                        media="min-width: 744px">
+    
+                        <source
+                        srcset="./img/browse4_tab@1x.jpg 1x, ./img/browse4_tab@2x.jpg 2x"
+                        media="min-width: 744px">
+    
+    
+                        <source
+                        srcset="./img/browse3_mob@1x.jpg 1x, ./img/browse3_mob@2x.jpg 2x"
+                        media="min-width: 320px">
+                        <source
+                        srcset="./img/browse4_mob@1x.jpg 1x, ./img/browse4_mob@2x.jpg 2x"
+                        media="min-width: 320px">
+
+                    <img class="photo1" src="./img/browse3_desk@1x.jpg" alt="browse3">
+                    <img class="photo2" src="./img/browse4_desk@1x.jpg" alt="browse4">
+
+                </picture>
+                    </div>
+                    <p class="browse-items-descr">Speakers</p>
+                </li>
+                <li class="browse-item">
+                    <div class="browse-item-container">
+                        <picture>
+                            <source
+                            srcset="./img/browse5_desk@1x.jpg 1x, ./img/browse5_desk@2x.jpg 2x"
+                            media="min-width: 1200px">
+        
+                            <source
+                            srcset="./img/browse6_desk@1x.jpg 1x, ./img/browse6_desk@2x.jpg 2x"
+                            media="min-width: 1200px">
+        
+                            <source
+                            srcset="./img/browse5_tab@1x.jpg 1x, ./img/browse5_tab@2x.jpg 2x"
+                            media="min-width: 744px">
+        
+                            <source
+                            srcset="./img/browse6_tab@1x.jpg 1x, ./img/browse6_tab@2x.jpg 2x"
+                            media="min-width: 744px">
+        
+        
+                            <source
+                            srcset="./img/browse5_mob@1x.jpg 1x, ./img/browse5_mob@2x.jpg 2x"
+                            media="min-width: 320px">
+                            <source
+                            srcset="./img/browse6_mob@1x.jpg 1x, ./img/browse6_mob@2x.jpg 2x"
+                            media="min-width: 320px">
+                        
+                    <img class="photo2" src="./img/browse5_desk@1x.jpg" alt="browse5">
+                    <img class="photo1" src="./img/browse6_desk@1x.jpg" alt="browse6">
+                </picture>
+                    </div>
+                    <p class="browse-items-descr">Audio sunglasses</p>
+                </li>
+            </ul>
+     </section>
+
+       <!--Section3-->
+
+       <section class="buy-section" id="buy">
+            <h2 class="buy-title title">Why buy direct <br>from Bose</h2>
+            <div class="buy-items-container">
+           <ul class="buy-items list">
+            <li class="buy-item">Free 2-day shipping and returns</li>
+            <li class="buy-item">90-day risk-free trial</li>
+            <li class="buy-item">World class customer service</li>
+            <li class="buy-item">My Bose account management</li>
+           </ul>
+           <p class="buy-items-descr">A great product is more than what’s in the box. It’s a promise of premium performance, world-class support, and everything you expect from a trusted brand. It’s just one of many reasons why you’ll shop with confidence on Bose.com.</p>
+        </div>
+       </section>
+
+ </main>
+
+  <!--Footer-->
+  <footer class="footer">
+  </footer>
+
+    <script src="./menu-container.js"></script>
+</body>
+</html>
