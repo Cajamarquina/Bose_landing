@@ -6,7 +6,7 @@
       const links = document.querySelectorAll('.menu nav a');
       
       // Function to open the menu
-      function openMenu() {
+      function openMobileMenu() {
         menu.style.display = 'block';
       }
       
