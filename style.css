@@ -55,6 +55,9 @@ width:24px;
 height:24px;
     }
     
+    button link {
+        cursor: url(./img/Cursor-Mouse-Mice.png);
+    }
     .menu-overlay{
         display: flex;
         flex-direction: column;
@@ -431,7 +434,7 @@ line-height: 140%;
 
 .browse-item-container{
     gap:20px;
-}
+} 
 
 .photo1 {
     width: 130px;
